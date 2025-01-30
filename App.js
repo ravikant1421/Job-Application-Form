@@ -28,7 +28,7 @@ document.addEventListener("DOMContentLoaded", () => {
                 };
                 localStorage.setItem("uploaded_file", JSON.stringify(fileData));
                 localStorage.setItem("form_data", JSON.stringify(data));
-                window.location.href = "./Submited/submited.html"
+                window.location.href = "Submited/submited.html"
             };
         }
         else {
