@@ -1,0 +1,24 @@
+*{
+ padding: 0;
+ margin: 0;
+ box-sizing: border-box;   
+}
+body{
+    background-image: linear-gradient(to bottom right, black, goldenrod);
+    height: 100vh;
+}
+div{
+    display: flex;
+    justify-content: center;
+}
+a{
+    font-size: 20px;
+}
+section{
+    background-color:grey;
+    margin-top: 10px;
+    width: 90%;
+    text-align: center;
+    padding: 10px;
+    border-radius: 10px;
+}
