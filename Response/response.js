@@ -26,15 +26,6 @@ document.addEventListener("DOMContentLoaded", () => {
 
     const fileData = JSON.parse(storedFile);
     const { name, type, content } = fileData;
-
-
-        // // Create a download link
-        // const downloadLink = document.createElement("a");
-        // downloadLink.href = content; // Base64 data
-        // downloadLink.download = name;
-        // downloadLink.textContent = "Download File";
-        // document.body.appendChild(downloadLink);
-
     anchor.href = content; 
     anchor.download = name; 
     anchor.innerHTML = name
